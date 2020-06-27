@@ -1,0 +1,10 @@
+<div>
+  <p>property-and-event-binding-component works!</p>
+  <div class="container">
+    <p [innerHtml]="paraDetails"></p> <!-- [innerHtml] is a DOM property(and not HTML attribute) which we can directly access in
+    angular to bind values to it. Similarly, we can bind the [src] property of image tag -->
+
+    <p (click)="paraClicked()">Click Me</p> <!-- (click) is a DOM event which fires the method defined in angular component -->
+  </div>
+</div>
+
